@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <nodes>
+    <DialogueNode>
+      <nodeId>0</nodeId>
+      <text>You come across a glowing stone</text>
+      <options>
+        <OptionNode>
+          <text>Smash the stone</text>
+          <destId>1</destId>
+        </OptionNode>
+        <OptionNode>
+          <text>You pocket the stone</text>
+          <destId>2</destId>
+        </OptionNode>
+        <OptionNode>
+          <text>Walk away from the stone</text>
+          <destId>3</destId>
+        </OptionNode>
+      </options>
+    </DialogueNode>
+    <DialogueNode>
+      <nodeId>1</nodeId>
+      <text>You died</text>
+      <options>
+        <OptionNode>
+          <text>Exit</text>
+          <destId>-1</destId>
+        </OptionNode>
+      </options>
+    </DialogueNode>
+    <DialogueNode>
+      <nodeId>2</nodeId>
+      <text>You pocket the stone</text>
+      <options>
+        <OptionNode>
+          <text>Continue</text>
+          <destId>4</destId>
+        </OptionNode>
+      </options>
+    </DialogueNode>
+    <DialogueNode>
+      <nodeId>3</nodeId>
+      <text>You walked away from the stone</text>
+      <options>
+        <OptionNode>
+          <text>Continue</text>
+          <destId>4</destId>
+        </OptionNode>
+      </options>
+    </DialogueNode>
+    <DialogueNode>
+      <nodeId>4</nodeId>
+      <text>You come across ogres</text>
+      <options>
+        <OptionNode>
+          <text>Fight them</text>
+          <destId>5</destId>
+        </OptionNode>
+        <OptionNode>
+          <text>Sneak past them</text>
+          <destId>6</destId>
+        </OptionNode>
+        <OptionNode>
+          <text>They don't want to talk</text>
+          <destId>7</destId>
+        </OptionNode>
+      </options>
+    </DialogueNode>
+    <DialogueNode>
+      <nodeId>5</nodeId>
+      <text>Fight executed</text>
+      <options>
+        <OptionNode>
+          <text>Exit</text>
+          <destId>-1</destId>
+        </OptionNode>
+      </options>
+    </DialogueNode>
+    <DialogueNode>
+      <nodeId>6</nodeId>
+      <text>You sneaked past the ogres</text>
+      <options>
+        <OptionNode>
+          <text>Exit</text>
+          <destId>-1</destId>
+        </OptionNode>
+      </options>
+    </DialogueNode>
+    <DialogueNode>
+      <nodeId>7</nodeId>
+      <text>They don't want to talk</text>
+      <options>
+        <OptionNode>
+          <text>Exit</text>
+          <destId>-1</destId>
+        </OptionNode>
+      </options>
+    </DialogueNode>
+  </nodes>
+</Dialogue>
