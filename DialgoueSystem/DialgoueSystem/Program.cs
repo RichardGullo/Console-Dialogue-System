@@ -21,11 +21,6 @@ namespace DialgoueSystem
             Dialogue dia = load_dialogue("sample.txt");
         }
 
-        public static void create_Dialogue()
-        {
-  
-        }
-
         public static Dialogue load_dialogue(string name)
         {
             sr = new StreamReader(name);
