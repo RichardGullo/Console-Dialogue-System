@@ -7,3 +7,6 @@ c:\users\richard\documents\visual studio 2013\Projects\DialgoueSystem\DialgoueSy
 D:\Repositories\Console-Dialogue-System\DialgoueSystem\DialgoueSystem\bin\Debug\DialgoueSystem.exe.config
 D:\Repositories\Console-Dialogue-System\DialgoueSystem\DialgoueSystem\obj\Debug\DialgoueSystem.exe
 D:\Repositories\Console-Dialogue-System\DialgoueSystem\DialgoueSystem\obj\Debug\DialgoueSystem.pdb
+D:\Repositories\Console-Dialogue-System\DialgoueSystem\DialgoueSystem\bin\Debug\DialgoueSystem.exe
+D:\Repositories\Console-Dialogue-System\DialgoueSystem\DialgoueSystem\bin\Debug\DialgoueSystem.pdb
+D:\Repositories\Console-Dialogue-System\DialgoueSystem\DialgoueSystem\obj\Debug\DialgoueSystem.csprojResolveAssemblyReference.cache

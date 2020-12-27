@@ -19,6 +19,7 @@ namespace DialgoueSystem
         public static void Main(string[] args)
         {
             Dialogue dia = load_dialogue("sample.txt");
+            runDialogue(dia);
         }
 
         public static Dialogue load_dialogue(string name)
